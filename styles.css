@@ -29,7 +29,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 0;
   }
-  .back_image_2{
-    
+  .bar-1{
+    position: relative;
+    display:inline-flex;
+    z-index: 1;
+    left: 10.3125%;
+    width: 79.375%;
+  }
+  .contacts-outer, .call_back-outer, .socials-outer{
+    display:flex ;
+  }
+  .contacts-outer{
+    line-height: 15px;
+    margin-left: 2%;
+  }
+  .right-align{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .contacts-inner, .call_back-inner, .socials-inner{
+    margin: auto;
+  }
+  .call
+  nav{
+    display: inline-flex;
+  }
+  .block_1{
+    position: relative;
+    z-index: 1;
   }
